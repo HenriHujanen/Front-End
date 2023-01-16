@@ -1,0 +1,11 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "Website for front-end course",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss/:Code/css/"
+  },
+  "author": "",
+  "license": "ISC"
+}
