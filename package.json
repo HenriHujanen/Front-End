@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "Website for front-end course",
   "main": "index.js",
+  "homepage": "https://henrihujanen.github.io/Front-End/",
   "scripts": {
-    "sass": "sass --watch scss/:Code/css/"
+    "sass": "sass --watch scss/:Code/css/",
+    "deploy": "gh-pages -d Code"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
