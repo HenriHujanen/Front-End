@@ -123,13 +123,16 @@ body {
   height: 100%;
   margin: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 400;
   line-height: 1.5;
 }
+
 body#bg-img {
   background: url(../img/background.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
+
 body#bg-img:after {
   content: "";
   position: absolute;
@@ -139,6 +142,66 @@ body#bg-img:after {
   height: 100%;
   z-index: -1;
   background: rgba(68, 68, 68, 0.8);
+}
+
+.pimg1, .pimg2, .pimg3 {
+  position: relative;
+  opacity: 100;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url(../img/background.jpg);
+  min-height: 400px;
+}
+
+.pimg2 {
+  background-image: url(../img/background2.jpg);
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url(../img/background3.jpg);
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
 }
 
 h1, h2, h3 {
